@@ -1,0 +1,6 @@
+framework module Pods_innovation_competitionTests {
+  umbrella header "Pods-innovation competitionTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
