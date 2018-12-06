@@ -86,6 +86,22 @@
             </objects>
             <point key="canvasLocation" x="-564" y="-1084.4077961019491"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="N1Q-0P-Gf7">
+            <objects>
+                <viewController id="35t-0g-g7r" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kg1-cs-xVA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="eJQ-rn-1Iu"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="PX5-YE-TUZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XjJ-12-Ce2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-321" y="291"/>
+        </scene>
         <!--一般停車-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
@@ -769,7 +785,6 @@
                                             </connections>
                                         </barButtonItem>
                                         <textField key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="健台大藥局" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="A7J-Wm-c1G">
-                                            <rect key="frame" x="95.5" y="7" width="184" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <nil key="textColor"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -818,6 +833,7 @@
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="z99-x0-NlD"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="YvR-Uo-Vgg"/>
                         <segue destination="EOT-8K-oVa" kind="relationship" relationship="viewControllers" id="lJK-X7-nSM"/>
+                        <segue destination="35t-0g-g7r" kind="relationship" relationship="viewControllers" id="zbe-g2-kfA"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fEM-DS-feH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1133,7 +1149,7 @@
             <objects>
                 <viewController id="RF0-dR-SSk" customClass="NavigationMapViewController" customModule="innovation_competition" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u86-yv-7dE">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="519"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="fsP-JD-R31"/>
@@ -1239,6 +1255,6 @@
         <image name="profile-1" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="2IL-sA-lNz"/>
+        <segue reference="Uge-U0-WIv"/>
     </inferredMetricsTieBreakers>
 </document>

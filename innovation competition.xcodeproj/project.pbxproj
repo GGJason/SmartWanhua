@@ -23,7 +23,7 @@
 		BF5DC0C92197E90300F30EA2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5DC0C82197E90300F30EA2 /* TabBarController.swift */; };
 		BF5DC0CB2197EAC300F30EA2 /* road_parking.csv in Resources */ = {isa = PBXBuildFile; fileRef = BF5DC0CA2197EAC300F30EA2 /* road_parking.csv */; };
 		BF5DC0CD2197EC1F00F30EA2 /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5DC0CC2197EC1F00F30EA2 /* Template.swift */; };
-		BF5DC0CF2198059500F30EA2 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5DC0CE2198059500F30EA2 /* ThirdViewController.swift */; };
+		BF5DC0CF2198059500F30EA2 /* AdminMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5DC0CE2198059500F30EA2 /* AdminMapViewController.swift */; };
 		BF5DC0D121980EC300F30EA2 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5DC0D021980EC300F30EA2 /* HomeTableViewController.swift */; };
 		BF5DC0D32198620900F30EA2 /* ReserveGridMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5DC0D22198620900F30EA2 /* ReserveGridMapViewController.swift */; };
 		BF5DC0D52198726C00F30EA2 /* NavigationMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5DC0D42198726B00F30EA2 /* NavigationMapViewController.swift */; };
@@ -78,7 +78,7 @@
 		BF5DC0C82197E90300F30EA2 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		BF5DC0CA2197EAC300F30EA2 /* road_parking.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = road_parking.csv; sourceTree = "<group>"; };
 		BF5DC0CC2197EC1F00F30EA2 /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
-		BF5DC0CE2198059500F30EA2 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		BF5DC0CE2198059500F30EA2 /* AdminMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminMapViewController.swift; sourceTree = "<group>"; };
 		BF5DC0D021980EC300F30EA2 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		BF5DC0D22198620900F30EA2 /* ReserveGridMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveGridMapViewController.swift; sourceTree = "<group>"; };
 		BF5DC0D42198726B00F30EA2 /* NavigationMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMapViewController.swift; sourceTree = "<group>"; };
@@ -159,7 +159,7 @@
 				BF296C2021ADBB5100219520 /* LogisticMapSearchViewController.swift */,
 				BF5DC09C2197E56B00F30EA2 /* SecondViewController.swift */,
 				BF296C2421B0618600219520 /* ParkingGridReservationViewController.swift */,
-				BF5DC0CE2198059500F30EA2 /* ThirdViewController.swift */,
+				BF5DC0CE2198059500F30EA2 /* AdminMapViewController.swift */,
 				BF5DC0D42198726B00F30EA2 /* NavigationMapViewController.swift */,
 				BF5DC0D22198620900F30EA2 /* ReserveGridMapViewController.swift */,
 				BF5DC0C82197E90300F30EA2 /* TabBarController.swift */,
@@ -470,7 +470,7 @@
 				BF5DC0D32198620900F30EA2 /* ReserveGridMapViewController.swift in Sources */,
 				BF5DC0D121980EC300F30EA2 /* HomeTableViewController.swift in Sources */,
 				BF296C2321ADCC2C00219520 /* ReservationViewController.swift in Sources */,
-				BF5DC0CF2198059500F30EA2 /* ThirdViewController.swift in Sources */,
+				BF5DC0CF2198059500F30EA2 /* AdminMapViewController.swift in Sources */,
 				BF5DC09B2197E56B00F30EA2 /* LogisticMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  ThirdViewController.swift
+//  AdminMapViewController.swift
 //  innovation competition
 //
 //  Created by 吳軒竹 on 2018/11/11.
@@ -11,7 +11,7 @@ import UIKit
 import GoogleMaps
 import GooglePlaces
 import CSV
-class ThirdViewController:UIViewController{
+class AdminMapViewController:UIViewController{
     var placesClient: GMSPlacesClient!
     
     override func viewDidLoad() {
